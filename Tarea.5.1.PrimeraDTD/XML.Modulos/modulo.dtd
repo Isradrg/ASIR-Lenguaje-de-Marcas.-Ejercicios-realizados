@@ -1,0 +1,5 @@
+<!ELEMENT asir (modulo+)>
+<!ELEMENT modulo (titulo,contenido)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (unidad+)>
+<!ELEMENT unidad (#PCDATA)>

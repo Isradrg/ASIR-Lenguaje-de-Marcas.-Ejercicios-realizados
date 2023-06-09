@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+
+<resultset statement="select * from matricula
+"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<field name="cod_mat">0</field>
+		<field name="cod_asig">1000</field>
+		<field name="nre">13908804</field>
+		<field name="anyo">2005</field>
+		<field name="cod_curso">601</field>
+		<field name="nota">0</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1</field>
+		<field name="cod_asig">1001</field>
+		<field name="nre">13908804</field>
+		<field name="anyo">2005</field>
+		<field name="cod_curso">601</field>
+		<field name="nota">1</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">10</field>
+		<field name="cod_asig">1009</field>
+		<field name="nre">10874951</field>
+		<field name="anyo">2005</field>
+		<field name="cod_curso">601</field>
+		<field name="nota">7</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">100</field>
+		<field name="cod_asig">1035</field>
+		<field name="nre">16298399</field>
+		<field name="anyo">2005</field>
+		<field name="cod_curso">602</field>
+		<field name="nota">0</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1000</field>
+		<field name="cod_asig">1035</field>
+		<field name="nre">14120486</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">602</field>
+		<field name="nota">1</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1001</field>
+		<field name="cod_asig">1036</field>
+		<field name="nre">14120486</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">602</field>
+		<field name="nota">1</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1002</field>
+		<field name="cod_asig">1037</field>
+		<field name="nre">14120486</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">602</field>
+		<field name="nota">0</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1003</field>
+		<field name="cod_asig">1038</field>
+		<field name="nre">14120486</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">602</field>
+		<field name="nota">2</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1004</field>
+		<field name="cod_asig">1034</field>
+		<field name="nre">14120486</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">602</field>
+		<field name="nota">10</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1005</field>
+		<field name="cod_asig">1002</field>
+		<field name="nre">11253484</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">601</field>
+		<field name="nota">9</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1006</field>
+		<field name="cod_asig">1018</field>
+		<field name="nre">15251811</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">600</field>
+		<field name="nota">5</field>
+	</row>
+
+	<row>
+		<field name="cod_mat">1007</field>
+		<field name="cod_asig">1017</field>
+		<field name="nre">15251811</field>
+		<field name="anyo">2006</field>
+		<field name="cod_curso">600</field>
+		<field name="nota">7</field>
+	</row>
+</resultset>

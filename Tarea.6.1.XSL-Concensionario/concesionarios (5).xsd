@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="concesionarios">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="concesionario" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="ciudad" type="xs:string" />
+                            <xs:element name="coches">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="coche" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modelo" type="xs:string" />
+                                                    <xs:element name="marca" type="xs:string" />
+                                                    <xs:element name="potencia" type="xs:string" />
+                                                    <xs:element name="puertas" type="xs:string" />
+                                                    <xs:element name="precio" type="xs:string" />
+                                                    <xs:element name="co2" type="xs:string" />
+                                                    <xs:element name="consumo" type="xs:string" />
+                                                    <xs:element name="velmax" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

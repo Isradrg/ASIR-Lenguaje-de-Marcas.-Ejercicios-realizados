@@ -1,0 +1,19 @@
+<!ELEMENT relacionsql (comentario,configdb,student,consultas)>
+<!ATTLIST relacionsql numrelacion NMTOKEN #REQUIRED>
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT configdb (hostdb,esquemadb,usuariodb,passdb)>
+<!ELEMENT hostdb (#PCDATA)>
+<!ELEMENT esquemadb (#PCDATA)>
+<!ELEMENT usuariodb (#PCDATA)>
+<!ELEMENT passdb (#PCDATA)>
+<!ELEMENT student (alumno,finalgrade,totalgrade,maxgrade)>
+<!ELEMENT alumno (#PCDATA)>
+<!ELEMENT finalgrade (#PCDATA)>
+<!ELEMENT totalgrade (#PCDATA)>
+<!ELEMENT maxgrade (#PCDATA)>
+<!ELEMENT consultas (query+)>
+<!ELEMENT query (descq,resppropo,respcorr,gradeq,feedback)>
+<!ATTLIST query id ID #REQUIRED>
+<!ATTLIST query peso (1|2|3|4) #REQUIRED><!ELEMENT descq (#PCDATA)><!ELEMENT resppropo (#PCDATA)><!ELEMENT respcorr (#PCDATA)>
+<!ELEMENT gradeq EMPTY>
+<!ELEMENT feedback EMPTY>

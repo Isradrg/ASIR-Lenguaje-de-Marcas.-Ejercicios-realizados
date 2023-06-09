@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2.2 Página de recogida de cv's</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+
+        <label for="date">Fecha de nacimiento:</label><br>
+        <input type="date" id="start" name="trip-start"><br><br>
+
+        <label for="fotografia">Seleccionar fotografia:</label><br>
+        <img src="./IMG/fotografia.jpeg" alt="" width="50" height="50"><br><br>
+
+        <address>
+            Dirección: <br>
+            Box 564, Nueva York <br>
+        </address><br>
+
+        <label for="telefono">Ingrese su número de teléfono:</label><br>
+        <input type="tel" name="telefono" id="telefono" placeholder="666 66 66 66" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br><br>
+
+        <label for="presentacion">Presentacion del candidato:</label><br>
+        <textarea id="presentacion" name="presentacion" rows="5" cols="50">
+            Introduce aquí tu presentacion
+        </textarea><br><br>
+
+        <label for="areaexp">Eliga una o más áreas:</label><br> 
+        <input type="checkbox" id="area1" name="hardaware">
+        <label for="area1">Hardaware</label><br>
+        <input type="checkbox" id="area2" name="Administracion">
+        <label for="area2">Administracion</label><br>
+        <input type="checkbox" id="area3" name="area3">
+        <label for="area3">Redes</label><br><br>
+        
+        <label for="carnet">Carnet de conducir:</label>
+        <select name="carnet" id="carnet">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="file">Subir curriculum:</label><br>
+        <input type="file" name="archivossubidos[]" accept=".pdf"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Borrar Datos">
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE centromedico SYSTEM "centromedico.dtd">
+<centromedico>
+    <nombre>Centro Médico Salux Infurmorum</nombre>
+    <fecha>23-03-2021</fecha>
+    <listascitas>
+        <citas>
+            <cita>
+                <codigo>05EDC</codigo>
+                <companyaprivada></companyaprivada>
+                <horaasignada>9:05</horaasignada>
+                <horallamada>9:07</horallamada>
+                <tiempoespera>2m</tiempoespera>
+                <estado>O</estado>
+            </cita>
+
+            <cita>
+                <codigo>07WEV</codigo>
+                <companyaprivada></companyaprivada>
+                <horaasignada>10:00</horaasignada>
+                <horallamada>10:30</horallamada>
+                <tiempoespera>30m</tiempoespera>
+                <estado>D</estado>
+            </cita>
+        </citas>
+    </listascitas>
+</centromedico>

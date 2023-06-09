@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE asir SYSTEM "modulo.dtd">
+<asir>
+    <modulo>
+        <titulo>PAR</titulo>
+        <contenido>
+            <unidad>Modelo OSI</unidad>
+            <unidad>TCP/IP</unidad>
+        </contenido>
+    </modulo>
+
+    <modulo>
+        <titulo>LM</titulo>
+        <contenido>
+            <unidad>HTML</unidad>
+            <unidad>CSS</unidad>
+            <unidad>JavaScript</unidad>
+        </contenido>
+    </modulo>
+
+    <modulo>
+        <titulo>ISO</titulo>
+        <contenido>
+            <unidad>Bash</unidad>
+            <unidad>Administración SO Linux</unidad>
+        </contenido>
+    </modulo>
+</asir>

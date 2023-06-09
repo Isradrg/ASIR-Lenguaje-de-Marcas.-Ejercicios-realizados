@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diccionario: asir, horario, curso, modulo, horas curriculo, horas semanales
+Reglas: asir tiene un horario, en el horario, sale el año del curso, el nombre del módulo,
+las horas semanales, tanto del curriculo como las semanales-->
+<asir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="./Tarea.5.4.xsd">
+    <horario>
+        <curso>1</curso>
+        <modulo>ISO</modulo>
+        <horas>
+            <horascurriculo>230</horascurriculo>
+            <horassemanales>7</horassemanales>
+        </horas>
+
+        <curso>1</curso>
+        <modulo>PAR</modulo>
+        <horas>
+            <horascurriculo>160</horascurriculo>
+            <horassemanales>6</horassemanales>
+        </horas>
+
+        <curso>1</curso>
+        <modulo>FHD</modulo>
+        <horas>
+            <horascurriculo>100</horascurriculo>
+            <horassemanales>4</horassemanales>
+        </horas>
+
+        <curso>1</curso>
+        <modulo>GBD</modulo>
+        <horas>
+            <horascurriculo>160</horascurriculo>
+            <horassemanales>5</horassemanales>
+        </horas>
+
+        <curso>1</curso>
+        <modulo>LMSGI</modulo>
+        <horas>
+            <horascurriculo>130</horascurriculo>
+            <horassemanales>4</horassemanales>
+        </horas>
+
+        <curso>2</curso>
+        <modulo>ASO</modulo>
+        <horas>
+            <horascurriculo>145</horascurriculo>
+            <horassemanales>7</horassemanales>
+        </horas>
+
+        <curso>2</curso>
+        <modulo>SRI</modulo>
+        <horas>
+            <horascurriculo>145</horascurriculo>
+            <horassemanales>8</horassemanales>
+        </horas>
+
+        <curso>2</curso>
+        <modulo>IAW</modulo>
+        <horas>
+            <horascurriculo>100</horascurriculo>
+            <horassemanales>5</horassemanales>
+        </horas>
+
+        <curso>2</curso>
+        <modulo>ASGBD</modulo>
+        <horas>
+            <horascurriculo>60</horascurriculo>
+            <horassemanales>3</horassemanales>
+        </horas>
+
+        <curso>2</curso>
+        <modulo>SAD</modulo>
+        <horas>
+            <horascurriculo>100</horascurriculo>
+            <horassemanales>6</horassemanales>
+        </horas>
+    </horario>
+</asir>

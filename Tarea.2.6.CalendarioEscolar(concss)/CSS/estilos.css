@@ -1,0 +1,62 @@
+table {
+  padding: 10px;
+  border: solid black;
+}
+
+.semana {
+  text-align: center;
+  background-color: #808080;
+  color: white;
+}
+
+.festivo {
+  text-align: center;
+  background-color: magenta;
+  color: white;
+}
+
+.inicio_clase_ESO_BACH_FP {
+  text-align: center;
+  background-color: #ffff00;
+  font-weight: bold;
+}
+
+.dia_no_lectivo {
+  text-align: center;
+  background-color: #366092;
+  color: white;
+}
+
+.vacaciones {
+  text-align: center;
+  background-color: #01ff00;
+  font-weight: bold;
+}
+
+.fin_FP {
+  text-align: center;
+  background-color: #ffff00;
+  font-weight: bold;
+}
+
+.fin_ESO_BACH {
+  text-align: center;
+  background-color: #ffff00;
+  font-weight: bold;  
+}
+
+.semana_dia {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.sabado{
+  text-align: center;
+  background-color: #dadada;
+}
+
+.domingo {
+  text-align: center;
+  background-color: #dadada;
+  font-weight: bold;
+}

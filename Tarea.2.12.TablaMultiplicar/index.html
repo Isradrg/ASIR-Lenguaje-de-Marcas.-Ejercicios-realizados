@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./JS/main.js"></script>
+	<title>Tabla de Multiplicar</title>
+</head>
+<body>
+	<main>
+		<table>
+			<tr>
+				<td colspan="2"><h2>Tabla de multiplicar (tres valores con tabla)</h2></td>
+			</tr>
+			<tr>
+				<td><label for="total">Tablas de Multiplicar a mostrar: </label></td>
+				<td><input type="number" name="total" min="0" max="1000" id="maxvalue"></td>
+			</tr>
+			<tr>
+				<td><label for="tonum">Resultados a mostrar: </label></td>
+				<td><input type="number" name="tonum" min="0" id="tonum"></td>
+			</tr>
+			<tr>
+				<td><label for="mulnum">Número de columnas por fila: </label></td>
+				<td><input type="number" name="mulnum" min="0" id="mulnum"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button type="button" name="button" onclick="generate()">Crear Tabla</button></td>
+			</tr>
+		</table>
+		<div id="tablasMultiplicar"></div>
+	</main>
+</body>
+</html>

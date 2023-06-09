@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/codigo.js"></script>
+    <title>Validacion Formulario</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Instrucciones</th>
+            <th>Alta</th>
+        </tr>
+        <tr>
+            <td> Para darse de alta en esta página web debe completar los siguientes campos </td>
+            <td> Todos los campos son obligatorios </td>
+        </tr>
+        <tr>
+            <td> 
+                <ol>
+                    <li> Su nombre y apellidos completos </li>
+                    <li> Su fecha de nacimiento </li>
+                    <li> Su dirección </li>
+                    <li> Su género </li>
+                    <li> Sus aficiones </li>
+                    <li> Una breve descricpión de sus intereses </li>
+                </ol>
+            </td>
+            <td>
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="surname">Nombre*:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nombre">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="name">Apellidos*:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="apellidos"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="fecnac">Fecha nacimiento*:</label>
+                            </td>
+                            <td>
+                                <input type="date" id="fecnac"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="direccion">Dirección*:</label>
+                            </td>
+                            <td>
+                                <textarea placeholder="Escribe tu direción aquí" rows="5" cols="30" id="direccion"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="genero">Género*:</label>
+                            </td>
+                            <td>
+                                <label for="varon">Varón</label>
+                                <input type="radio" id="varon" name="genero" value="varon">
+                                <label for="mujer">Mujer</label>
+                                <input type="radio" id="mujer" name="genero" value="mujer">
+                                <label for="mujer">Otro</label>
+                                <input type="radio" id="otro" name="genero" value="otro">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="aficiones">Afición Principal*:</label>
+                            </td>
+                            <td>
+                                <select name="aficiones" id="aficiones">
+                                    <option value="">- Seleccionar -</option>
+                                    <option value="lectura">Lectura</option>
+                                    <option value="videosjuegos">Videojuegos</option>
+                                    <option value="deportes">Deportes</option>
+                                    <option value="cine">Cinéfilo</option>
+                                    <option value="coleccionista">Coleccionista</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="estudios">Estudios realizados*</label>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td>
+                                        <div id="estudios">
+                                        <input type="checkbox" name="primaria" value="primaria">
+                                        <label>Primaria</label><br>
+                                    </td></tr>
+                                    <tr><td>
+                                        <input type="checkbox" name="eso" value="eso">
+                                        <label>ESO</label><br>
+                                    </td></tr>
+                                    <tr><td>
+                                        <input type="checkbox" name="bachiller" value="bachiller">
+                                        <label>Bachillerato</label><br>
+                                    </td></tr>
+                                    <tr><td>
+                                        <input type="checkbox" name="gradomedio" value="gradomedio">
+                                        <label>FP Grado Medio</label><br>
+                                    </td></tr>
+                                    <tr><td>
+                                        <input type="checkbox" name="gradosuperior" value="gradosuperior">
+                                        <label>FP Grado Superior</label><br>
+                                    </td></tr>
+                                        </div>
+                                </table>
+                            </td>
+                        </tr>
+                        </tr>
+                            <td>
+                                <label for="validar"> Proceso de validación: </label>
+                            </td>
+                            <td>
+                                <input type="button" value="Validar formulario" onclick="validaFormulario()" />							
+                            </td>
+                        </table>
+                </form> 
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

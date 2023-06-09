@@ -1,0 +1,12 @@
+<!ELEMENT centromedico (nombre,fecha,listascitas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT listascitas (citas)>
+<!ELEMENT citas (cita+)>
+<!ELEMENT cita (codigo,companyaprivada,horaasignada,horallamada,tiempoespera,estado)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT companyaprivada EMPTY>
+<!ELEMENT horaasignada (#PCDATA)>
+<!ELEMENT horallamada (#PCDATA)>
+<!ELEMENT tiempoespera (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>

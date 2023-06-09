@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<resultset statement="select * from farmaco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<row>
+		<field name="Codigo">1</field>
+		<field name="Nombre">3 A OFTENO</field>
+		<field name="Concentracion">0.1%</field>
+		<field name="Formato">Solución Oftálmica</field>
+		<field name="Formato_Simple">Solucion Oftalmica</field>
+		<field name="Presentacion">Env. X 5 mL</field>
+		<field name="Fracciones">1</field>
+		<field name="Fecha_Registro">2011-09-21</field>
+		<field name="N_Registro_Sanitario">E18788</field>
+		<field name="Fabricante">276</field>
+		<field name="Precio">39.19</field>
+		<field name="stock">251</field>
+		<field name="IVA">4</field>
+	</row>
+</resultset>

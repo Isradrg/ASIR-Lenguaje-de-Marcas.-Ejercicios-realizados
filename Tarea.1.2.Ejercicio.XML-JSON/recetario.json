@@ -1,0 +1,48 @@
+{
+    "recetario": {
+      "recetas": {
+        "receta": [
+          {
+            "NombreReceta": "Carne",
+            "TiempoEstimado": "15 minutos",
+            "ingredientes": {
+              "ingrediente": [
+                {
+                  "nombre": "Carne",
+                  "cantidad": "500g"
+                },
+                {
+                  "nombre": "Aceite",
+                  "cantidad": "100ml"
+                }
+              ]
+            },
+            "elaboracion": "Poner el fuego alto, echar aceite en la sartén, después echar la carne, hacerla por un lado y después por el otro"
+          },
+          {
+            "NombreReceta": "Sopa de cebolla",
+            "TiempoEstimado": "15 minutos",
+            "ingredientes": {
+              "ingrediente": [
+                {
+                  "nombre": "Cebolla",
+                  "cantidad": 1
+                },
+                {
+                  "nombre": "Caldo",
+                  "cantidad": "2 litros"
+                },
+                {
+                  "nombre": "Pimienta"
+                },
+                {
+                  "nombre": "Harina"
+                }
+              ]
+            },
+            "elaboracion": "Pelar y partir las cebollas en rodajas finas, añadir la harina sin dejar de remover, ponerlo en la cazuela con el caldo, dejar a cocer a fuego lento durante 15 minutos"
+          }
+        ]
+      }
+    }
+  }

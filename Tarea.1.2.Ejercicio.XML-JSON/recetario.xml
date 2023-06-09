@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetario>
+    <recetas>
+            <receta>
+                <NombreReceta>Carne</NombreReceta>
+                <TiempoEstimado>15 minutos</TiempoEstimado>
+                <ingredientes>
+                    <ingrediente>
+                        <nombre>Carne</nombre>
+                        <cantidad>500g</cantidad>
+                    </ingrediente>
+                    <ingrediente>
+                        <nombre>Aceite</nombre>
+                        <cantidad>100ml</cantidad>
+                    </ingrediente>
+                </ingredientes>
+                <elaboracion>
+                    Poner el fuego alto, echar aceite en la sartén, después echar la carne, hacerla por un lado y después por el otro
+                </elaboracion>
+            </receta>
+            <receta>
+                <NombreReceta>Sopa de cebolla</NombreReceta>
+                <TiempoEstimado>15 minutos</TiempoEstimado>
+                <ingredientes>
+                    <ingrediente>
+                        <nombre>Cebolla</nombre>
+                        <cantidad>1</cantidad>
+                    </ingrediente>
+                    <ingrediente>
+                        <nombre>Caldo</nombre>
+                        <cantidad>2 litros</cantidad>
+                    </ingrediente>
+                    <ingrediente>
+                        <nombre>Pimienta</nombre>
+                    </ingrediente>
+                    <ingrediente>
+                        <nombre>Harina</nombre>
+                    </ingrediente>
+                </ingredientes>
+                <elaboracion>
+                    Pelar y partir las cebollas en rodajas finas, añadir la harina sin dejar de remover, ponerlo en la cazuela con el caldo, dejar a cocer a fuego lento durante 15 minutos
+                </elaboracion>
+            </receta>
+    </recetas>
+</recetario>
